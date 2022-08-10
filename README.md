@@ -14,12 +14,19 @@ My home baked Othello Bot. It is decent.
 - [License](#license)
 
 ### Setup
+First step is to download [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html#:~:text=The%20easiest%20way%20to%20get,rustup%20will%20also%20install%20cargo%20.&text=It%20will%20download%20a%20script%2C%20and%20start%20the%20installation.).
+
+Second step is to clone the GitHub repository:
 ```
 git clone https://github.com/L0ad1n6/Othellotron
+```
 
+Last step is to compile and run
+```
 cargo run --release
 ```
-Yes that is really it, you can start playing as soon as it compiles
+
+NOTE: If you are on MacOS or Linux you can use the binary in the latest release. Future releases will have more supported platforms.
 
 ### How do I play?
 ```
