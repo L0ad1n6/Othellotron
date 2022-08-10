@@ -23,6 +23,8 @@ git clone https://github.com/L0ad1n6/Othellotron
 
 Last step is to compile and run
 ```
+cd Othellotron
+
 cargo run --release
 ```
 
