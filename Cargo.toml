@@ -1,0 +1,16 @@
+[package]
+name = "othellotron"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+text_io = "0.1.12"
+colored = "2.0.0"
+
+[dev-dependencies]
+flamegraph = "0.6.2" # Use cargo flamegraph --rootxs
+
+[profile.release]
+debug = true
