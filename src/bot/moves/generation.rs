@@ -10,8 +10,8 @@ use crate::game::{Board, validate, play, unplay};
 pub fn generate_moves(board: &Board, color: bool) -> Vec<usize> {
     // TODO: Only check positions adjacent to pieces in future
     // TODO: Make pruned positions Cached
-    pruned_positions(board)
-    //(0..64)
+    // pruned_positions(board)
+    (0..64)
         .into_iter()
         .filter(|&i| validate(board, i, color))
         .collect()
@@ -19,6 +19,7 @@ pub fn generate_moves(board: &Board, color: bool) -> Vec<usize> {
 
 /// Function to prune positions that are checked
 /// Too slow to work
+#[allow(dead_code)]
 fn pruned_positions(board: &Board) -> Vec<usize>  {
     let offsets: [i32; 8] = [-9, -8, -7, -1, 1, 7, 8, 9];
     (0..64)
