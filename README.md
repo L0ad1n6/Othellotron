@@ -25,8 +25,6 @@ Last step is to compile and run
 ```
 cd Othellotron
 
-cd Othellotron
-
 cargo run --release
 ```
 
