@@ -17,6 +17,8 @@ My home baked Othello Bot. It is decent.
 ```
 git clone https://github.com/L0ad1n6/Othellotron
 
+cd Othellotron
+
 cargo run --release
 ```
 Yes that is really it, you can start playing as soon as it compiles
